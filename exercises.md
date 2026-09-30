@@ -262,7 +262,7 @@ Chọn 3–5 dimensions:
 **Bias controls:** Rubric hoặc evaluation protocol của bạn giảm position bias,
 verbosity bias và self-preference bằng cách nào?
 
-> **Position bias:** Khi so sánh 2 câu trả lời, chạy đánh giá 2 lần với thứ tự đảo ngược (A-B rồi B-A), lấy trung bình điểm. **Verbosity bias:** Rubric yêu cầu tính Actionability (hướng dẫn ngắn gọn, cụ thể), câu trả lời dài nhưng không có hành động rõ ràng sẽ bị trừ điểm. **Self-preference:** Sử dụng nhiều LLM judge khác nhau (ví dụ GPT-4 + Claude) và so sánh kết quả, calibrate với human labels trên một tập mẫu.
+> **Position bias:** Khi so sánh 2 câu trả lời, chạy đánh giá 2 lần với thứ tự đảo ngược (A-B rồi B-A), lấy trung bình điểm. **Verbosity bias:** Rubric yêu cầu tính Actionability (hướng dẫn ngắn gọn, cụ thể), câu trả lời dài nhưng không có hành động rõ ràng sẽ bị trừ điểm. **Self-preference:** Sử dụng nhiều LLM judge khác nhau và so sánh kết quả, calibrate với human labels trên một tập mẫu.
 
 ### Exercise 3.4 — Framework Comparison (Bonus +5)
 
